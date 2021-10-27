@@ -1,0 +1,37 @@
+/*general correction for brouser defolt styling*/
+* {
+    /*padding: 0;
+    margin: 0;*/
+    box-sizing: border-box;
+  }
+
+  /*apply desighn to body*/
+body {
+    background-color:rgb(170, 235, 235);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    padding: 20px 20px;
+    background-color: #f5e509;
+}
+header a{
+    text-decoration: none;
+    color: #f30a3c;
+}
+#Section1 div {
+    background: gray;
+}
+#Section2 div {
+    background:khaki;
+}
+
+#Section2 div ul li {
+    margin: 2px;
+    border-style: solid;
+    border-color: red;
+}
+
+footer{
+    padding: 20px 20px;
+    background-color: #f5e509;
+}
